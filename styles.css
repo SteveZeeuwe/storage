@@ -1,0 +1,70 @@
+body {
+    justify-content: center;
+    display: flex;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body.DarkMode {
+    color: white;
+    background: black;
+}
+
+body.DarkMode a {
+    color: white;
+}
+
+body.DarkMode .PublicNotice {
+    background: black;
+    border: 1px solid white;
+}
+
+body p, body ul, body ol {
+    font-size: 20px;
+    line-height: 46px;
+}
+
+body h1, body h2 {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+body h3 {
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.KingWrapper {
+    width: 100%;
+    max-width: 720px;
+    padding: 0 10px;
+    margin: 3rem 0 7rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 715px) {
+    .KingWrapper {
+        margin-top: 1rem;
+    }
+}
+
+.KingWrapper section.intro p {
+    padding-left: 0;
+}
+
+.KingWrapper section.intro ul {
+    padding-left: 16px;
+}
+
+.KingWrapper section {
+    margin-bottom: 80px;
+}
+
+img {
+    margin: 0 0 40px 0;
+}
+
+.strike {
+    text-decoration: line-through;
+}
